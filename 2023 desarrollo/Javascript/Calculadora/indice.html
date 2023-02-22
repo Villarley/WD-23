@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css">
+</head>
+<body>
+    <div class="calculator">
+      <div id="screen">
+        <span id="input" style="color: antiquewhite; text-align: center;"></span>
+      </div>
+      <div class="button-row">
+        <button class="button" value=7 onclick="escribenumero(this)">7</button>
+        <button class="button" value=8 onclick="escribenumero(this)">8</button>
+        <button class="button" value=9 onclick="escribenumero(this)">9</button>
+        <button class="button operator" onclick="escribeOp(this)" value="mas">+</button>
+      </div>
+      <div class="button-row">
+        <button class="button" value=4 onclick="escribenumero(this)">4</button>
+        <button class="button" value=5 onclick="escribenumero(this)">5</button>
+        <button class="button" value=6 onclick="escribenumero(this)">6</button>
+        <button class="button operator" onclick="escribeOp(this)" value="menos">-</button>
+      </div>
+      <div class="button-row">
+        <button class="button" value=1 onclick="escribenumero(this)">1</button>
+        <button class="button" value=2 onclick="escribenumero(this)">2</button>
+        <button class="button" value=3 onclick="escribenumero(this)">3</button>
+        <button class="button operator" onclick="escribeOp(this)" value="por">*</button>
+      </div>
+      <div class="button-row">
+        <button class="button" value="0" onclick="escribenumero(this)">0</button>
+        <button class="button" onclick="escribenumero(this)" value=".">.</button>
+        <button class="button operator" onclick="escribeOp(this)" value="entre">/</button>
+        <button class="button operator" onclick="escribeIgual()">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="javascript2"></script>
+  <script src="javascript"></script>
+</html>
